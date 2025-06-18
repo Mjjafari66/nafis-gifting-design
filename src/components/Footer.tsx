@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { Heart, Star, Sparkles } from "lucide-react";
 
@@ -138,7 +137,7 @@ const Footer = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent transform -translate-x-full animate-[shimmer_3s_infinite]"></div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes shimmer {
           0% { transform: translateX(-100%); }
           100% { transform: translateX(100%); }

@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from "react";
 import { Phone, MessageCircle, Mail, MapPin, Clock, Send, Globe } from "lucide-react";
 
@@ -287,7 +286,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes shimmer {
           0% { transform: translateX(-100%); }
           100% { transform: translateX(100%); }

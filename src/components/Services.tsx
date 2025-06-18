@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from "react";
 import { Package, BookOpen, Palette, Scissors, Printer, Sparkles } from "lucide-react";
 
@@ -206,7 +205,7 @@ const Services = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes shimmer {
           0% { transform: translateX(-100%); }
           100% { transform: translateX(100%); }
