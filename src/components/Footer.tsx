@@ -47,10 +47,10 @@ const Footer = () => {
               <div className="absolute -top-2 -left-2 w-6 h-6 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-sm group-hover:scale-150 transition-transform duration-500"></div>
             </div>
             
-            <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 relative">
+            <div className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 relative"> {/* Changed p to div */}
               با بیش از 25 سال سابقه در خدمت شما عزیزان هستیم. کیفیت و رضایت شما اولویت ماست.
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 pointer-events-none"></div>
-            </p>
+              <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 pointer-events-none"></span> {/* Changed div to span */}
+            </div>
             
             <div className="flex items-center gap-2 mt-4 text-sm text-purple-300">
               <Heart className="h-4 w-4 text-red-400 animate-pulse" />

@@ -103,12 +103,12 @@ const Hero = () => {
         </h1>
 
         {/* Subtitle with Typewriter Effect */}
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in delay-300 relative">
+        <div className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in delay-300 relative">
           <span className="relative inline-block">
             طراحی و تولید آلبوم‌سازی نفیس
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 transform translate-x-full group-hover:translate-x-[-100%] transition-transform duration-1000"></div>
+            <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 transform translate-x-full group-hover:translate-x-[-100%] transition-transform duration-1000"></span>
           </span>
-        </p>
+        </div>
 
         {/* Enhanced Banner */}
         <div className="relative bg-gradient-to-r from-purple-600/80 via-pink-600/80 to-blue-600/80 backdrop-blur-sm rounded-2xl p-6 mb-8 animate-fade-in delay-400 border border-white/20 overflow-hidden group">

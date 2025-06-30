@@ -123,10 +123,10 @@ const About = () => {
                   <h3 className="text-2xl font-bold text-gray-800 mb-4 relative z-10">مهدی ابراهیمی</h3>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-lg blur-sm"></div>
                 </div>
-                <p className="text-purple-600 font-semibold relative">
+                <div className="text-purple-600 font-semibold relative"> {/* Changed p to div */}
                   بیش از 25 سال سابقه در صنعت
-                  <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent"></div>
-                </p>
+                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent"></span> {/* Changed div to span */}
+                </div>
               </div>
               
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed text-justify space-y-6 relative">
